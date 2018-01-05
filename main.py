@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 API_TOKEN = os.environ["comchatter"]
 
 # States
-NAME_FIRST, NAME_LAST, EMAIL, MOBILE, GRADE, NAME_TEACHER, END = range(7)
+NAME_FIRST, NAME_LAST, EMAIL, MOBILE, GRADE, NAME_TEACHER, DONE, END = range(8)
 REPLY, STEPS = 98, 99
 
 # Counter
@@ -91,13 +91,14 @@ def grade(bot, update, user_data):
 def name_teacher(bot, update, user_data):
     """ Get the user's teacher  """
     text = update.message.text
+    update.message.reply_text("Thank You for registering!")
     bounce(text)
     return counter
 
 def bounce(text):
     global counter
     output[labels[counter]] = text
-    counter = counter % 7
+    counter = counter % 8
     counter += 1
 
 def received_info(bot, update, user_data):
@@ -117,7 +118,6 @@ def error(bot, update, error):
     
 
 def done(bot, update, user_data):
-    update.message.reply_text("Thank You for registering!")
     user_data.clear()
     return ConversationHandler.END
 
@@ -162,7 +162,7 @@ def main():
                                         name_teacher,
                                         pass_user_data = True),
             ],
-            NAME_TEACHER: [MessageHandler(Filters.text,
+            DONE: [MessageHandler(Filters.text,
                                         done,
                                         pass_user_data = True),
             ],

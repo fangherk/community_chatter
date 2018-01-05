@@ -2,7 +2,8 @@
 
 ## Problem: How do we automate instructions using chatbots? 
 
-Can we automate form registration using a chatbot and is it useful for events?
+Can we automate form registration using a chatbot and is it useful for public events?
+Can we automate canvanizer results to store the data in some central database and is this more efficient than sending a pic of the canvanizer?
 
 ## Solution -- attempt
 

@@ -1,0 +1,88 @@
+name: ccBotWorking
+channels:
+- defaults
+dependencies:
+- ca-certificates=2017.08.26=h1d4fec5_0
+- certifi=2017.11.5=py36hf29ccca_0
+- libedit=3.1=heed3624_0
+- libffi=3.2.1=hd88cf55_4
+- libgcc-ng=7.2.0=h7cc24e2_2
+- libstdcxx-ng=7.2.0=h7a57d05_2
+- ncurses=6.0=h9df7e31_2
+- openssl=1.0.2n=hb7f436b_0
+- pip=9.0.1=py36h6c6f9ce_4
+- python=3.6.4=hc3d631a_0
+- readline=7.0=ha6073c6_4
+- setuptools=36.5.0=py36he42e2e1_0
+- sqlite=3.20.1=hb898158_2
+- tk=8.6.7=hc745277_3
+- wheel=0.30.0=py36hfd4bba0_1
+- xz=5.2.3=h55aa19d_2
+- zlib=1.2.11=ha838bed_2
+- pip:
+  - actionlib==1.11.11
+  - catkin==0.7.8
+  - cv-bridge==1.12.7
+  - docutils==0.14
+  - dynamic-reconfigure==1.5.48
+  - future==0.16.0
+  - gencpp==0.5.5
+  - geneus==2.2.6
+  - genlisp==0.4.16
+  - genmsg==0.5.9
+  - gennodejs==2.0.1
+  - genpy==0.6.7
+  - message-filters==1.12.12
+  - pluginlib==1.11.2
+  - pyasn1==0.3.2
+  - python-dateutil==2.6.1
+  - python-qt-binding==0.3.3
+  - python-telegram-bot==9.0.0
+  - qt-dotgraph==0.3.8
+  - qt-gui==0.3.8
+  - qt-gui-cpp==0.3.8
+  - qt-gui-py-common==0.3.8
+  - rosbag==1.12.12
+  - rosclean==1.13.6
+  - rosgraph==1.12.12
+  - roslaunch==1.12.12
+  - roslib==1.13.6
+  - roslz4==1.12.12
+  - rosmaster==1.12.12
+  - rosmsg==1.12.12
+  - rosnode==1.12.12
+  - rosparam==1.12.12
+  - rospy==1.12.12
+  - rosservice==1.12.12
+  - rostest==1.12.12
+  - rostopic==1.12.12
+  - rosunit==1.13.6
+  - rqt-action==0.4.9
+  - rqt-bag==0.4.11
+  - rqt-bag-plugins==0.4.11
+  - rqt-console==0.4.8
+  - rqt-dep==0.4.8
+  - rqt-graph==0.4.9
+  - rqt-gui==0.5.0
+  - rqt-gui-py==0.5.0
+  - rqt-image-view==0.4.11
+  - rqt-launch==0.4.8
+  - rqt-logger-level==0.4.8
+  - rqt-msg==0.4.8
+  - rqt-plot==0.4.8
+  - rqt-publisher==0.4.8
+  - rqt-py-common==0.5.0
+  - rqt-py-console==0.4.8
+  - rqt-reconfigure==0.4.8
+  - rqt-service-caller==0.4.8
+  - rqt-shell==0.4.9
+  - rqt-srv==0.4.8
+  - rqt-top==0.4.8
+  - rqt-topic==0.4.10
+  - rqt-web==0.4.8
+  - sensor-msgs==1.12.5
+  - smclib==1.8.1
+  - telegram==0.0.1
+  - topic-tools==1.12.12
+prefix: /home/herk/anaconda3/envs/ccBotWorking
+
